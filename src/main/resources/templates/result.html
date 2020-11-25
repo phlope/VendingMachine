@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'Type: ' + ${item.type}" />
+<p th:text="'Price: ' + ${item.cost}" />
+<p th:text="'Available: ' + ${item.inStock}" />
+<a href="/vend">Back to vending machine</a>
+</body>
+</html>

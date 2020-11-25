@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Vending Machine</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1 th:text="'Welcome to the World\'s most ' + ${name} + ' vending machine!'" />
+    <p>Choose your drink: <br><br>
+    Coke: 25 <br>
+    Pepsi: 35 <br>
+    Soda: 45 <br>
+    </p>
+
+    <form action="http://localhost:8080/purchase">
+        <input type="submit" value="Coke" />
+    </form>
+
+
+
+</body>
+</html>
